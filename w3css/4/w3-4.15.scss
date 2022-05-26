@@ -1,10 +1,7 @@
-/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 /* End extract */
-/* Source: https://www.w3schools.com/w3css/4/w3.css */
-/* Converter: http://beautifytools.com/css-to-scss-converter.php */
-
-@keyframes w3-spin {
+@keyframes "w3-spin" {
 	0% {
 		transform: rotate(0deg);
 	}
@@ -12,7 +9,7 @@
 		transform: rotate(359deg);
 	}
 }
-@keyframes fading {
+@keyframes "fading" {
 	0% {
 		opacity: 0;
 	}
@@ -23,7 +20,7 @@
 		opacity: 0;
 	}
 }
-@keyframes opac {
+@keyframes "opac" {
 	from {
 		opacity: 0;
 	}
@@ -31,7 +28,7 @@
 		opacity: 1;
 	}
 }
-@keyframes animatetop {
+@keyframes "animatetop" {
 	from {
 		top: -300px;
 		opacity: 0;
@@ -41,7 +38,7 @@
 		opacity: 1;
 	}
 }
-@keyframes animateleft {
+@keyframes "animateleft" {
 	from {
 		left: -300px;
 		opacity: 0;
@@ -51,7 +48,7 @@
 		opacity: 1;
 	}
 }
-@keyframes animateright {
+@keyframes "animateright" {
 	from {
 		right: -300px;
 		opacity: 0;
@@ -61,7 +58,7 @@
 		opacity: 1;
 	}
 }
-@keyframes animatebottom {
+@keyframes "animatebottom" {
 	from {
 		bottom: -300px;
 		opacity: 0;
@@ -71,7 +68,7 @@
 		opacity: 1;
 	}
 }
-@keyframes animatezoom {
+@keyframes "animatezoom" {
 	from {
 		transform: scale(0);
 	}
@@ -376,6 +373,15 @@ h6 {
 }
 .w3-serif {
 	font-family: serif;
+}
+.w3-sans-serif {
+	font-family: sans-serif;
+}
+.w3-cursive {
+	font-family: cursive;
+}
+.w3-monospace {
+	font-family: monospace;
 }
 .w3-wide {
 	letter-spacing: 4px;
@@ -1351,6 +1357,18 @@ h6 {
 .w3-padding-64 {
 	padding-top: 64px !important;
 	padding-bottom: 64px !important;
+}
+.w3-padding-top-64 {
+	padding-top: 64px !important;
+}
+.w3-padding-top-48 {
+	padding-top: 48px !important;
+}
+.w3-padding-top-32 {
+	padding-top: 32px !important;
+}
+.w3-padding-top-24 {
+	padding-top: 24px !important;
 }
 .w3-left {
 	float: left !important;
